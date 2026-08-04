@@ -1,6 +1,5 @@
 # Тестирование веб-приложения интернет-магазина
 
-### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Skifca/qa-engineer-java-from-scratch-project-84/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Skifca/qa-engineer-java-from-scratch-project-84/actions)
 
 ## Описание проекта
@@ -11,9 +10,11 @@
 ---
 
 ## Структура репозитория
+* **`about.yml`** — информация об авторе проекта и ключевых навыках.
 * **`requirements.yml`** — формализованный перечень функциональных, нефункциональных и неявных (implicit) требований к веб-приложению.
 * **`test-cases.yml`** — тестовые сценарии, покрывающие основную функциональность: поиск, фильтрацию, навигацию, работу с корзиной, оформление заказа, локализацию и верстку.
 * **`testing-report.yml`** — отчет о результатах выполнения тест-кейсов со статусами `pass` и `fail`.
+* **`regress-report.yml`** — отчет о результатах повторного (регрессионного) тестирования.
 * **`bugreports.yml`** — отчеты об обнаруженных дефектах, оформленные по стандарту (Summary, Environment, Steps to Reproduce, Expected/Actual Result).
 * **`screenshots/`** — графические материалы и скриншоты, подтверждающие найденные дефекты адаптивной верстки и UI.
 
